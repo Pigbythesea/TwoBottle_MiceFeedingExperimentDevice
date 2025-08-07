@@ -2,7 +2,6 @@
 
 This is a two-bottle, home-cage mice operant training device that records mice behavior for experimentation.
 
----
 
 ## Table of Contents
 
@@ -10,10 +9,7 @@ This is a two-bottle, home-cage mice operant training device that records mice b
 2. [Key Features](#key-features)
 3. [Hardware Overview](#hardware-overview)
 4. [Bill of Materials](#bill-of-materials)
-5. [Pin‑Out Reference](#pin-out-reference)
-6. [Software Requirements](#software-requirements)
 7. [Installation & Flashing](#installation--flashing)
-8. [Runtime Modes](#runtime-modes)
 9. [Data Logging](#data-logging)
 10. [Calibrating Dispense Volume](#calibrating-dispense-volume)
 11. [Extending the Library](#extending-the-library)
