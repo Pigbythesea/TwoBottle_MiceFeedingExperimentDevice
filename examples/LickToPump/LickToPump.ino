@@ -1,9 +1,9 @@
-#include <FED3.h>
+#include <TwoBottle.h>
 String sketch = "LickToPump";       
 FED3 fed3(sketch);
 
 void setup() {
-  fed3.begin();                      // init FED3 hardware + SD logging
+  fed3.begin();                      // init TwoBottle hardware + SD logging
   fed3.disableSleep();               // poll continuously
 }
 

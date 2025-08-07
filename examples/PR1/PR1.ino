@@ -1,9 +1,9 @@
-#include <FED3.h>  
+#include <TwoBottle.h>  
 
 // — Sketch identifier (will be logged in the CSV) —
 String sketch = "PR1_dual";
 
-// — Create the FED3 object —
+// — Create the TwoBottle object —
 FED3 fed3(sketch);
 
 // — Per‐side counters & current ratio requirements —

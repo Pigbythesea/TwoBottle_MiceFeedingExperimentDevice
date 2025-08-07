@@ -8,16 +8,16 @@
 int FR = 6;
 bool LeftActive = false;                               //Set to false to make right poke active
 
-#include <FED3.h>                                     //Include the FED3 library 
+#include <TwoBottle.h>                                     //Include the TwoBottle library
 String sketch = "FRCustom";                           //Unique identifier text for each sketch
-FED3 fed3 (sketch);                                   //Start the FED3 object
+FED3 fed3 (sketch);                                   //Start the TwoBottle object
 
 void setup() {
-  fed3.begin();                                       //Setup the FED3 hardware
+  fed3.begin();                                       //Setup the TwoBottle hardware
   fed3.FR = FR;                                       //Share the FR ratio with the fed3 library so it is logged on the SD card and displayed on the screen
   fed3.disableSleep();
   if (LeftActive == false) {
-    fed3.activePoke = 0;                              //update the activepoke variable in the FED3 library for logging and display. This defaults to 1, so only set to 0 if LeftActive == false
+    fed3.activePoke = 0;                              //update the activepoke variable in the TwoBottle library for logging and display. This defaults to 1, so only set to 0 if LeftActive == false
   }
 }
 void loop() {
