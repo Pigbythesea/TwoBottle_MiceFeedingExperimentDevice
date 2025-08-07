@@ -1,6 +1,6 @@
 # TwoBottle Feeding Device
 
-*This is a two-bottle, home-cage mice operant training device that records mice behavior for experimentation.*
+This is a two-bottle, home-cage mice operant training device that records mice behavior for experimentation.
 
 ---
 
