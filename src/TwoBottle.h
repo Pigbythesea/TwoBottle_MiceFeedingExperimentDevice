@@ -20,12 +20,10 @@
 
   License
   -------
-  Released under the Apache License, Version 2.0
-  (http://www.apache.org/licenses/LICENSE-2.0) with the following  
-  Copyright © 2025 Zihuan Zhang
+  Released under the CC-BY-SA 3.0 license
+  https://creativecommons.org/licenses/by-sa/3.0/ – Copyright © 2025 Zihuan Zhang
 */
 
-*/
 
 #define VER "1.17.0"
 
