@@ -20,7 +20,7 @@ This is a two-bottle, home-cage mice operant training device that records mice b
 
 ## Introduction
 
-**TwoBottle** is an open‑source library and firmware bundle that converts a Teensy 4.1 into a dual‑bottle liquid reward rig.  It inherits the proven architecture of the **FED3** pellet feeder (Kravitz et al., 2019‑2021) while substituting stepper‑driven syringe pumps for rapid 10 µL deliveries, and adding capacitive lick detection on each side. The result is a compact, self‑contained apparatus for operant or Pavlovian paradigms in rodents.
+**TwoBottle** is a library and firmware bundle that converts a Teensy 4.1 into a dual‑bottle liquid reward rig.  It inherits the proven architecture of the **FED3** pellet feeder (Kravitz et al., 2019‑2021) while substituting stepper‑driven syringe pumps for rapid 10 µL deliveries, and adding capacitive lick detection on each side. The result is a compact, self‑contained apparatus for operant or Pavlovian paradigms in rodents.
 
 All hardware control, task logic, and SD logging are encapsulated in a single C++ class, defined in **TwoBottle.h / TwoBottle.cpp**.  Example sketches simply instantiate the class, select or custom edit a sketch, and call `run()` inside `loop()`—leaving you free to focus on experimental design rather than boilerplate.
 
